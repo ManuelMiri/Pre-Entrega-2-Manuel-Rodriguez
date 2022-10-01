@@ -376,7 +376,7 @@ h4{
 }
 @media screen and (max-width: 922px) {
     .main{ height: auto;}
-    .contendor__card{ height: 100vh;}
+    .contendor__card{ height: 120vh;}
     .wrap{height: 70vh;}
 }
 @media screen and (max-width: 800px) {
@@ -389,35 +389,34 @@ h4{
     .contendor__card{ height: 135vh;}
     .wrap{height: 70vh;}
 }
-@media screen and (max-width: 613px) {
+@media screen and (max-width: 615px) {
     .main{ height: auto;}
-    .contendor__card{ height: 135vh;}
+    .contendor__card{ height: 165vh;}
     .wrap{height: 70vh;}
 }
 @media screen and (max-width: 461px) {
     .main{ height: auto;}
-    .contendor__card{ height: 135vh;}
+    .contendor__card{ height: 155vh;}
     .wrap{height: 70vh;}
 }
 @media screen and (max-width: 426px) {
-    .main{ height: 165vh;}
-    .contendor__card{ height: 135vh;}
+    .main{ height: auto;}
+    .contendor__card{ height: 155vh;}
     .wrap{height: 70vh;}
 }
 @media screen and (max-width: 405px) {
-    .main{ height: 175vh;}
-    .contendor__card{ height: 105vh;}
+    .main{ height: auto;}
+    .contendor__card{ height: 165vh;}
     .wrap{height: 70vh;}
 }
 @media screen and (max-width: 383px) {
-    .main{ height: 185vh;}
-    .contendor__card{ height: 135vh;}
+    .main{ height: auto;}
+    .contendor__card{ height: 165vh;}
     .wrap{height: 70vh;}
-
 }
 @media screen and (max-width: 379px) {
-    .main{ height: 300vh;}
-    .contendor__card{ height: 135vh;}
+    .main{ height: auto;}
+    .contendor__card{ height: 185vh;}
     .wrap{height: 70vh;}
 
 }
@@ -430,4 +429,43 @@ h4{
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+/* pagina not found 404 */
+.body__img{background-color:#8383ffa2;
+    background-image: url(https://i.picsum.photos/id/1041/5184/2916.jpg?hmac=TW_9o6HeD7H7I7NVo-S1Fa1iAvzQ10uvmJqsXvNoi0M);
+    background-size: cover;
+}
+
+		/*PERSONALIZACIÓN DE P.MANTENIMIENTO*/
+		.mantenimiento{
+			width:600px;
+			height:400px;
+			padding:32px;
+			border:1px solid #000;
+			border-radius:10px;
+			margin-top:-200px;
+			margin-left:-300px;
+			background-color:#fff;
+			position:fixed;
+			top:50%;
+			left:50%;
+		}
+		.mantenimiento h1, .mantenimiento h2, .mantenimiento p{
+			font-family:"noto sans", sans-serif;
+		}
+
+		.mantenimiento h1{
+			font-size:3em;
+			text-align:center;
+			padding:16px;
+		}
+		.mantenimiento h2{
+			font-size:2em;
+			font-style:italic;
+		}
+		.mantenimiento p{
+			margin:16px 0;
+			line-height:1.5em;
+		}
+/* efectos div para pagina en mantenimiento */
 
