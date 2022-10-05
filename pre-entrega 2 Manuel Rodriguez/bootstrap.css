@@ -1,0 +1,28 @@
+/* Body */
+.bg-violet{
+    background-color: white;
+    font-size: 2rem;
+}
+/* Seccion del navegador */
+
+
+#navbarSupportedContent{
+    font-size: 1rem;
+}
+
+/* Seccion del Carrusel */
+.header{
+    padding-top: 10vh;
+}
+/* seccion cards */
+
+.card{
+    margin-top: 100px;
+    background: rgb(214, 220, 247);
+    background: radial-gradient(line, rgb(142, 159, 241) 50%, rgb(84, 187, 238) 100%);
+    
+}
+.parrafo{
+    text-align: center;
+    font-size: 1.5rem;
+}
