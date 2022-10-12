@@ -1,9 +1,18 @@
 /* Body */
+*{
+    margin:0px ;
+    padding:0px;
+    box-sizing: border-box;}
+
 .bg-violet{
     background-color: white;
     font-size: 2rem;
 }
+
 /* Seccion del navegador */
+a:hover {text-shadow: 0 0 5px rgba(29, 75, 224, 0.514);
+}
+
 
 
 #navbarSupportedContent{
