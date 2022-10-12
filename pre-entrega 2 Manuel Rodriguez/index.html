@@ -14,7 +14,7 @@
     <!-- comienzo navegador-->
     <nav class="navbar navbar-expand-lg navbar-light navbar fixed-top bg-violet" id="botonera">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="./index.html">
                 <img src="./src/logoqu.png" alt="logo de Automotriz Quelle" ">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,6 +44,7 @@
     <!-- Fin navegador -->
     <!-- comienzo carrusel -->
     <header class="header">
+        <div class="container-fluid">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -70,25 +71,32 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+    </div>
         <!-- fin carrusel -->
         <!-- comienzo nuestros servicios -->
+    <div class="container">
         <div class="px-4 py-5 my-5 text-center">
             <img class="d-block mx-auto mb-4" src="./src/lOGOqU.png" alt="" width="72" height="57">
             <h1 class="display-5 fw-bold">NUESTROS SERVICIOS</h1>
             <br>
             <p class="parrafo">QUELLE es una empresa de servicio automotriz integral, que inicia sus actividades en el mes de febrero de 1982. La empresa cuenta con una infraestructura de más de 3.000 metros cuadrados, en los cuales se distribuyen los servicios de Mecánica Multimarca, Lubricentro, Bosch Car Service, Desabolladura y Pintura, Venta de Repuestos, Venta de neumáticos, Servicio Rent a Car y Conversión a gas. Para lograr los objetivos y metas de la empresa, clientes satisfechos, se han realizado alianzas estratégicas con Bosch, PPG y Compañías de Seguros, entre otros. Además se ha invertido en infraestructura y maquinarias especializadas.</p>
-            <br>        
+            <br>  
+        </div>   
+    </div>  
+    <!-- boton mas informacion -->
+    <div class="container">
             <div class="col-lg-6 mx-auto">
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                     <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Más Información</button>
                 </div>
-                <!-- comienzo cards -->
-        </div>
-            <div class="album py-5 bg-light">
-            <div class="container">
+            </div>
+    </div>
+    <!-- comienzo cards -->
+    <div class="album py-5 bg-light">
+            <div class="container text-center ">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 <div class="col">
-                    <div class="card shadow-sm">
+                    <div class="card shadow-sm d-flex">
                         <br>
                         <H2>LUBRICENTRO</H2>
                         <img src="./src/lubricante.png" alt="imagen de un lubricentro">
@@ -140,12 +148,12 @@
         </div>        
     </header>
     <!-- comienzo footer -->
-    <div class="container">
+    <div class="container-fluid">
     <footer class="py-5 px-3">
     <div class="row">
         <div class="col-2">
             <h5>Indice</h5>
-                <ul class="nav flex-column">
+                <ul class="nav flex-column ">
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Inicio</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Galeria</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Servicios</a></li>
@@ -164,7 +172,7 @@
                 <div class="d-flex w-100 gap-2">
                     <label for="newsletter1" class="visually-hidden">Email address</label>
                     <input id="newsletter1" type="text" class="form-control" placeholder="Correo Electronico">
-                    <button class="btn btn-primary" type="button">Enviar</button>
+                    <button class="btn btn-primary"  type="button">Enviar</button>
                 </div>
             </form>
         </div>  
@@ -172,11 +180,7 @@
 
     <div class="d-flex justify-content-between py-4 my-4 border-top">
         <p>&copy; 2022 Quelle, Inc. Todos los derechos reservados.</p>
-        <ul class="list-unstyled d-flex">
-            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-        </ul>
+    
     </div>
 </footer>
 </div>
